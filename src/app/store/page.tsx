@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/footer";
 import { FaRegSquare } from "react-icons/fa6";
 import shoRec from "@/app/assets/shoRec.png";
-import Card3 from "../components/card3";
+import Card3 from "../components/Card3";
 import shoeimage2 from "@/app/assets/shoeimage2.png";
 import shoeimage3 from "@/app/assets/shoeimage3.png";
 import shoeimage4 from "@/app/assets/shoeimage4.png";
