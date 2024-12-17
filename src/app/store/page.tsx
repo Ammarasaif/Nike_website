@@ -1,25 +1,25 @@
 import Image from "next/image";
 import Filter from "@/app/assets/filter icon.png";
 import { IoIosArrowDown } from "react-icons/io";
-import Header from "../components/header";
+import Header from "../components/Header";
 import Footer from "../components/footer";
 import { FaRegSquare } from "react-icons/fa6";
-import Rectangle1 from "@/app/assets/shoRec.png";
+import shoRec from "@/app/assets/shoRec.png";
 import Card3 from "../components/card3";
-import shoe2 from "@/app/assets/shoeimage2.png";
-import shoe3 from "@/app/assets/shoeimage3.png";
-import shoe4 from "@/app/assets/shoeimage4.png";
-import shoe5 from "@/app/assets/shoeimage5.png";
-import shoe6 from "@/app/assets/shoeimage6.png";
-import shoe7 from "@/app/assets/shoeimage7.png";
-import shoe8 from "@/app/assets/shoeimage8.png";
-import shoe9 from "@/app/assets/shoeimage9.png";
-import shoe10 from "@/app/assets/shoeimage10.png";
-import shoe11 from "@/app/assets/shoeimage11.png";
-import shoe12 from "@/app/assets/shoeimage12.png";
-import shoe13 from "@/app/assets/shoeimage13.png";
-import shoe14 from "@/app/assets/shoeimage14.png";
-import shoe15 from "@/app/assets/shoeimage15.png";
+import shoeimage2 from "@/app/assets/shoeimage2.png";
+import shoeimage3 from "@/app/assets/shoeimage3.png";
+import shoeimage4 from "@/app/assets/shoeimage4.png";
+import shoeimage5 from "@/app/assets/shoeimage5.png";
+import shoeimage6 from "@/app/assets/shoeimage6.png";
+import shoeimage7 from "@/app/assets/shoeimage7.png";
+import shoeimage8 from "@/app/assets/shoeimage8.png";
+import shoeimage9 from "@/app/assets/shoeimage9.png";
+import shoeimage10 from "@/app/assets/shoeimage10.png";
+import shoeimage11 from "@/app/assets/shoeimage11.png";
+import shoeimage12 from "@/app/assets/shoeimage12.png";
+import shoeimage13 from "@/app/assets/shoeimage13.png";
+import shoeimage14 from "@/app/assets/shoeimage14.png";
+import shoeimage15 from "@/app/assets/shoeimage15.png";
 
 export default function (){
 
@@ -95,7 +95,7 @@ export default function (){
             
             <div className=" w-[1440px]  px-8 space-x-4 h-auto grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3">
             <div className="ml-4">
-            <Image src={Rectangle1}  alt="image"/>
+            <Image src={shoRec}  alt="image"/>
             <h1 className="text-[15px] leading-[28px] font-medium text-[#9E3500]">
                 Just In
             </h1>
@@ -112,43 +112,43 @@ export default function (){
 
             </div>
             <div>
-            <Card3 imageUrl={shoe2} heading="just In" h2="Nike Court Vision Low Next Nature" h3="Men's Shoes" span="1 Colour" paragraph="MRP : ₹ 4 995.00"/></div>
-            <div><Card3 imageUrl={shoe3} heading="Just In" h2="Nike Air Force 1 PLT.AF.ORM" h3="Women's Shoes" span="1 Colour" paragraph="MRP : ₹ 8 695.00" /></div>
-            <div className=" mt-16"> <Card3 imageUrl={shoe4} heading="Just In" h2="Nike Air Force 1 React" h3="Men's Shoes" span="1 Colour" paragraph="MRP : ₹ 13 295.00"   /></div>
+            <Card3 imageUrl={shoeimage2} heading="just In" h2="Nike Court Vision Low Next Nature" h3="Men's Shoes" span="1 Colour" paragraph="MRP : ₹ 4 995.00"/></div>
+            <div><Card3 imageUrl={shoeimage3} heading="Just In" h2="Nike Air Force 1 PLT.AF.ORM" h3="Women's Shoes" span="1 Colour" paragraph="MRP : ₹ 8 695.00" /></div>
+            <div className=" mt-16"> <Card3 imageUrl={shoeimage4} heading="Just In" h2="Nike Air Force 1 React" h3="Men's Shoes" span="1 Colour" paragraph="MRP : ₹ 13 295.00"   /></div>
             <div className=" mt-16">
-                <Card3 imageUrl={shoe5} heading="Promo Exclusion" h2="Air Jordan 1 Elevate Low" h3="Women's Shoes"
+                <Card3 imageUrl={shoeimage5} heading="Promo Exclusion" h2="Air Jordan 1 Elevate Low" h3="Women's Shoes"
                 span="1 Colour" paragraph="MRP : ₹ 11 895.00" />
             </div>
             <div className=" mt-16">
-                <Card3 imageUrl={shoe6} heading="Just In" h2="Nike Standard Issue" h3="Women's Basketball Jersey"
+                <Card3 imageUrl={shoeimage6} heading="Just In" h2="Nike Standard Issue" h3="Women's Basketball Jersey"
                 span="1 Colour" paragraph="MRP : ₹ 2 895.00" />
             </div>
             <div className="mt-16">
-                <Card3 imageUrl={shoe7} heading="Promo Exclusion" h2="Nike Dunk Low Retro SE" h3="Men's Shoes" span="1 Colour" paragraph="MRP : ₹ 9 695.00" />
+                <Card3 imageUrl={shoeimage7} heading="Promo Exclusion" h2="Nike Dunk Low Retro SE" h3="Men's Shoes" span="1 Colour" paragraph="MRP : ₹ 9 695.00" />
             </div>
             <div className="mt-16">
-                <Card3  imageUrl={shoe8} heading="Sustainable Materials" h2="Nike Dri-FIT UV Hyverse" h3="Men's Short-Sleeve Graphic Fitness Top" span="1 Colour" paragraph="MRP : ₹ 2 495.00" />
+                <Card3  imageUrl={shoeimage8} heading="Sustainable Materials" h2="Nike Dri-FIT UV Hyverse" h3="Men's Short-Sleeve Graphic Fitness Top" span="1 Colour" paragraph="MRP : ₹ 2 495.00" />
             </div>
             <div className="mt-16">
-                <Card3  imageUrl={shoe9} heading="Just In" h2="Nike Court Vision Low" h3="Men's Shoes" span="1 Colour" paragraph="MRP : ₹ 5 695.00" />
+                <Card3  imageUrl={shoeimage9} heading="Just In" h2="Nike Court Vision Low" h3="Men's Shoes" span="1 Colour" paragraph="MRP : ₹ 5 695.00" />
             </div>
             <div className="mt-16">
-                <Card3 imageUrl={shoe10} heading="Just In" h2="Nike Dri-FIT Ready" h3="Men's Short-Sleeve Fitness Top" span="3 Colours" paragraph="MRP : ₹ 2 495.00" />
+                <Card3 imageUrl={shoeimage10} heading="Just In" h2="Nike Dri-FIT Ready" h3="Men's Short-Sleeve Fitness Top" span="3 Colours" paragraph="MRP : ₹ 2 495.00" />
             </div>
             <div className="mt-16">
-                <Card3  imageUrl={shoe11} heading="Just In" h2="Nike One Leak Protection: Period" h3="Women's Mid-Rise 18cm (approx.) Biker Shorts" span="2 Colours" paragraph="MRP : ₹ 3 395.00"/>
+                <Card3  imageUrl={shoeimage11} heading="Just In" h2="Nike One Leak Protection: Period" h3="Women's Mid-Rise 18cm (approx.) Biker Shorts" span="2 Colours" paragraph="MRP : ₹ 3 395.00"/>
             </div>
             <div className="mt-16">
-                <Card3 imageUrl={shoe12} heading="Just In" h2="Nike Air Force 1 LV8 3" h3="Older Kids' Shoe" span="1 Colour" paragraph="MRP : ₹ 7 495.00" />
+                <Card3 imageUrl={shoeimage12} heading="Just In" h2="Nike Air Force 1 LV8 3" h3="Older Kids' Shoe" span="1 Colour" paragraph="MRP : ₹ 7 495.00" />
             </div>
             <div className="mt-16">
-                <Card3 imageUrl={shoe13} heading="Just In" h2="Nike Blazer Low Platform" h3="Women's Shoes" span="1 Colour" paragraph="MRP : ₹ 8 195.00" />
+                <Card3 imageUrl={shoeimage13} heading="Just In" h2="Nike Blazer Low Platform" h3="Women's Shoes" span="1 Colour" paragraph="MRP : ₹ 8 195.00" />
             </div>
             <div className="mt-16">
-                <Card3 imageUrl={shoe14} heading="Just In" h2="Nike Air Force 1 '07" h3="Women's Shoe" span="2 Colours" paragraph="MRP : ₹ 8 195.00" />
+                <Card3 imageUrl={shoeimage14} heading="Just In" h2="Nike Air Force 1 '07" h3="Women's Shoe" span="2 Colours" paragraph="MRP : ₹ 8 195.00" />
             </div>
             <div className="mt-16">
-                <Card3 imageUrl={shoe15} heading="Just In" h2="Nike Pro Dri-FIT" h3="Men's Tight-Fit Sleeveless Top" span="1 Colour" paragraph="MRP : ₹ 1 495.00" />
+                <Card3 imageUrl={shoeimage15} heading="Just In" h2="Nike Pro Dri-FIT" h3="Men's Tight-Fit Sleeveless Top" span="1 Colour" paragraph="MRP : ₹ 1 495.00" />
             </div>
 
 

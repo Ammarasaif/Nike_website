@@ -1,11 +1,11 @@
 import Navbar from "./components/navbar";
-import Header from "./components/header";
-import Hero from "./components/hero";
-import Feature from "./components/feature";
-import Essentials from "./components/essential";
-import BestAirMax from "./components/best";
-import Shop from "./components/shop";
-import Category from "./components/category";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Feature from "./components/Feature";
+import Essentials from "./components/Essential";
+import BestAirMax from "./components/Best";
+import Shop from "./components/Shop";
+import Category from "./components/Category";
 import Footer from "./components/footer";
 
 export default function Home() {

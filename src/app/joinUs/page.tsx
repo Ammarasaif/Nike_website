@@ -3,7 +3,7 @@ import Logo from "@/app/assets/logo.png";
 import {Inter} from "next/font/google";
 import Rectangle from "@/app/assets/Rectangle.png";
 import Footer from "../components/footer";
-import Header from "../components/header";
+import Header from "../components/Header";
 
 const inter = Inter ({
     subsets:['latin'],

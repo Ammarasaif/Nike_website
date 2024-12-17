@@ -3,7 +3,7 @@ import Logo from "@/app/assets/logo.png";
 import Tick from "@/app/assets/tick.png";
 import Footer from "../components/footer";
 
-import Header from "../components/header";
+import Header from "../components/Header";
 import {Inter} from "next/font/google";
 const inter = Inter ({
     subsets:["latin"],

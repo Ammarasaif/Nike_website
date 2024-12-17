@@ -1,5 +1,5 @@
 import {Inter} from "next/font/google";
-import Header from "../components/header";
+import Header from "../components/Header";
 import { IoIosSearch } from "react-icons/io";
 import Image from "next/image";
 import Thumb1 from "@/app/assets/thumb1.png";
