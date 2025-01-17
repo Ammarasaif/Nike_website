@@ -2,7 +2,7 @@ import Image from "next/image";
 import Logo from "@/app/assets/logo.png";
 import {Inter} from "next/font/google";
 import Rectangle from "@/app/assets/Rectangle.png";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const inter = Inter ({

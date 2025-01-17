@@ -4,7 +4,7 @@ import { IoIosSearch } from "react-icons/io";
 import Image from "next/image";
 import Thumb1 from "@/app/assets/thumb1.png";
 import Thumb2 from "@/app/assets/thumb2.png";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import Mobile from "@/app/assets/mobile.png";
 import TextBar from "@/app/assets/textbar.png";
 import Inbox from "@/app/assets/inbox.png";

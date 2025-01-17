@@ -1,6 +1,7 @@
 import Image from "next/image";
 import image, { StaticImageData } from "next/image";
 import { MdCurrencyRupee } from "react-icons/md";
+
 interface ICardProps {
     imageUrl : StaticImageData;
     heading : string ;

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Logo from "@/app/assets/logo.png";
 import Tick from "@/app/assets/tick.png";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 import Header from "../components/Header";
 import {Inter} from "next/font/google";

@@ -6,7 +6,7 @@ import Essentials from "./components/Essential";
 import BestAirMax from "./components/Best";
 import Shop from "./components/Shop";
 import Category from "./components/Category";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
